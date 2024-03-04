@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+    padding-top: 50px;
+}
+
+#container{
+    margin: auto;
+    width: 450px;
+    border: solid 2px red;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#calcscreen input{
+    width: 410px;
+    height: 30px;
+    margin: 10px 15px;
+
+
+}
+
+#calccontrols{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+
+}
+
+button{
+    width: 70px;
+    height: 35px;
+    margin: 3px;
+
+}
+
+#equal{
+    width: 150px;
+}
